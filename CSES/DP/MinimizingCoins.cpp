@@ -20,7 +20,9 @@ int main(){
 	ll n,x;
 	cin>>n>>x;
 	ll c[n];
-	for(int i=0;i<n;i++) cin>>c[i];
+	// for(int i=0;i<n;i++) cin>>c[i];
+	for(int i=0;i<n;i++)
+		c[i]=i+1;
 
 	ll dp[x+1];
 	for(int i=1;i<=x;i++) dp[i]=1e9;
